@@ -1,0 +1,10 @@
+{
+  "name": "best-electrician-jobs",
+  "version": "1.0.0",
+  "description": "Manage your company's electrician job posts and applicants on BestElectricianJobs.com: draft and publish jobs, read résumés and move candidates through hiring.",
+  "mcpServers": {
+    "best-electrician-jobs": {
+      "httpUrl": "https://www.bestelectricianjobs.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "best-electrician-jobs": {
+      "url": "https://www.bestelectricianjobs.com/mcp",
+      "extensions": {
+        "com.openai": {
+          "auth": {
+            "type": "oauth",
+            "client": { "mode": "dcr" },
+            "resource": "https://www.bestelectricianjobs.com/mcp",
+            "baseScopes": ["openid"]
+          }
+        }
+      }
+    }
+  }
+}

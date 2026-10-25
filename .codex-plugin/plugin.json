@@ -1,0 +1,45 @@
+{
+  "name": "best-electrician-jobs",
+  "version": "1.0.1",
+  "description": "Manage your company's electrician job posts and applicants on BestElectricianJobs.com.",
+  "author": {
+    "name": "854 Labs",
+    "email": "support@bestelectricianjobs.com",
+    "url": "https://www.bestelectricianjobs.com/"
+  },
+  "homepage": "https://www.bestelectricianjobs.com/chatgpt",
+  "keywords": [
+    "electrician",
+    "electrical-contractor",
+    "hiring",
+    "applicants"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Best Electrician Jobs",
+    "shortDescription": "Manage jobs and applicants",
+    "longDescription": "For electrical contractors and other employers hiring electricians and apprentices on BestElectricianJobs.com. See your posting overview and open job slots, list your jobs and how they're performing, and turn a pasted job description into a private draft with trade categories, licences, certifications, pay and screening questions. Publish drafts, pause or unpublish live jobs, and resume paused ones. Review applicants by stage, open applications and read the text of attached PDF or Word résumés, move people to Reviewed or Shortlisted, add private team notes, and reject or mark someone as hired. Publishing a job, rejecting and hiring ask for your approval first: ChatGPT shows a card with exactly what will happen, and it happens only when you tap Approve. Everything else happens when you ask. Each employer sees only their own company's jobs and applicants. There are no job-seeker features.",
+    "developerName": "854 Labs",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Draft and publish job posts",
+      "Pause or unpublish jobs",
+      "Review applicants and résumés",
+      "Move applicants through hiring"
+    ],
+    "websiteURL": "https://www.bestelectricianjobs.com/",
+    "supportURL": "https://www.bestelectricianjobs.com/contact",
+    "privacyPolicyURL": "https://www.bestelectricianjobs.com/infopages/privacy",
+    "termsOfServiceURL": "https://www.bestelectricianjobs.com/infopages/terms",
+    "defaultPrompt": [
+      "What's my posting overview?",
+      "Which applicants still need review?",
+      "Turn this job description into a draft job post."
+    ],
+    "brandColor": "#3B82F6",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png"
+  },
+  "repository": "https://github.com/854Labs/best-electrician-jobs",
+  "license": "MIT"
+}
